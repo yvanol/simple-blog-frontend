@@ -32,7 +32,7 @@ export default function Home({ onSelectBlog }) {
     <main className="max-w-6xl mx-auto px-4 py-8">
       <header className="mb-12 text-center md:text-left">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-3 tracking-tight">
-          Explore Human <span className="bg-linear-to-r from-blue-400 to-pink-500 bg-clip-text text-transparent">Perspectives</span>
+          Explore Human <span className="bg-gradient-to-r from-blue-400 to-pink-500 bg-clip-text text-transparent">Perspectives</span>
         </h1>
         <p className="text-gray-400 max-w-xl">Dive into clean insights, technical breakdowns, and immersive stories written by developers globally.</p>
       </header>

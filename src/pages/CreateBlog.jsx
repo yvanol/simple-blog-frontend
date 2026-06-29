@@ -40,7 +40,7 @@ export default function CreateBlog({ setView }) {
       setView('home');
     } catch (err) {
       console.error("Error creating post", err);
-      alert('Upload or creation failed.');
+      alert(`Upload or creation failed: ${err.response?.data?.message || err.message}`);
     } finally {
       setIsSubmitting(false);
     }
